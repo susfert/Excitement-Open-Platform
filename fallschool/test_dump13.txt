@@ -1,0 +1,1291 @@
+======== CAS 0 begin ==================================
+
+-------- View _InitialView begin ----------------------------------
+
+DocumentAnnotation
+   sofa: _InitialView
+   begin: 0
+   end: 84
+   language: "en"
+
+CAS-Text:
+This is a document. You can pass an arbitary document to CAS and let LAP work on it.
+[This is a document.]
+Dependency
+   sofa: _InitialView
+   begin: 0
+   end: 19
+   Governor: Token
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 0
+      end: 4
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 0
+         end: 4
+         value: "this"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 0
+         end: 4
+         PosValue: "DT"
+   DependencyType: "nsubj"
+[This is a document.]
+Dependency
+   sofa: _InitialView
+   begin: 0
+   end: 19
+   Governor: Token
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 8
+      end: 9
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 8
+         end: 9
+         value: "a"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 8
+         end: 9
+         PosValue: "DT"
+   DependencyType: "det"
+[This is a document.]
+Dependency
+   sofa: _InitialView
+   begin: 0
+   end: 19
+   Governor: Token
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 18
+      end: 19
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 18
+         end: 19
+         value: "."
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 18
+         end: 19
+         PosValue: "SENT"
+   DependencyType: "punct"
+[This is a document.]
+Dependency
+   sofa: _InitialView
+   begin: 0
+   end: 19
+   Governor: Token
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 10
+         end: 18
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 5
+      end: 7
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 5
+         end: 7
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 5
+         end: 7
+         PosValue: "VBZ"
+   DependencyType: "cop"
+[This is a document.]
+Sentence
+   sofa: _InitialView
+   begin: 0
+   end: 19
+[This]
+Lemma
+   sofa: _InitialView
+   begin: 0
+   end: 4
+   value: "this"
+[This]
+Token
+   sofa: _InitialView
+   begin: 0
+   end: 4
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 0
+      end: 4
+      value: "this"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 0
+      end: 4
+      PosValue: "DT"
+[This]
+POS
+   sofa: _InitialView
+   begin: 0
+   end: 4
+   PosValue: "DT"
+[is]
+Lemma
+   sofa: _InitialView
+   begin: 5
+   end: 7
+   value: "be"
+[is]
+Token
+   sofa: _InitialView
+   begin: 5
+   end: 7
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 5
+      end: 7
+      value: "be"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 5
+      end: 7
+      PosValue: "VBZ"
+[is]
+POS
+   sofa: _InitialView
+   begin: 5
+   end: 7
+   PosValue: "VBZ"
+[a]
+Lemma
+   sofa: _InitialView
+   begin: 8
+   end: 9
+   value: "a"
+[a]
+Token
+   sofa: _InitialView
+   begin: 8
+   end: 9
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 8
+      end: 9
+      value: "a"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 8
+      end: 9
+      PosValue: "DT"
+[a]
+POS
+   sofa: _InitialView
+   begin: 8
+   end: 9
+   PosValue: "DT"
+[document]
+Lemma
+   sofa: _InitialView
+   begin: 10
+   end: 18
+   value: "document"
+[document]
+Token
+   sofa: _InitialView
+   begin: 10
+   end: 18
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      value: "document"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 10
+      end: 18
+      PosValue: "NN"
+[document]
+POS
+   sofa: _InitialView
+   begin: 10
+   end: 18
+   PosValue: "NN"
+[.]
+Lemma
+   sofa: _InitialView
+   begin: 18
+   end: 19
+   value: "."
+[.]
+Token
+   sofa: _InitialView
+   begin: 18
+   end: 19
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 18
+      end: 19
+      value: "."
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 18
+      end: 19
+      PosValue: "SENT"
+[.]
+POS
+   sofa: _InitialView
+   begin: 18
+   end: 19
+   PosValue: "SENT"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 28
+      end: 32
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         value: "pass"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         PosValue: "VV"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 20
+      end: 23
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 20
+         end: 23
+         value: "you"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 20
+         end: 23
+         PosValue: "PP"
+   DependencyType: "nsubj"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 54
+      end: 56
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 54
+         end: 56
+         value: "to"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 54
+         end: 56
+         PosValue: "TO"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 57
+      end: 60
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 57
+         end: 60
+         value: "Cas"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 57
+         end: 60
+         PosValue: "NN"
+   DependencyType: "pobj"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 65
+      end: 68
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 65
+         end: 68
+         value: "let"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 65
+         end: 68
+         PosValue: "VV"
+   DependencyType: "conj"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 69
+      end: 72
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 69
+         end: 72
+         value: "Lap"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 69
+         end: 72
+         PosValue: "NP"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 73
+      end: 77
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 73
+         end: 77
+         value: "work"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 73
+         end: 77
+         PosValue: "VV"
+   DependencyType: "dep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 78
+      end: 80
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 78
+         end: 80
+         value: "on"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 78
+         end: 80
+         PosValue: "IN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 81
+      end: 83
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 81
+         end: 83
+         value: "it"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 81
+         end: 83
+         PosValue: "PP"
+   DependencyType: "pobj"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 83
+      end: 84
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 83
+         end: 84
+         value: "."
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 83
+         end: 84
+         PosValue: "SENT"
+   DependencyType: "dep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 73
+      end: 77
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 73
+         end: 77
+         value: "work"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 73
+         end: 77
+         PosValue: "VV"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 78
+      end: 80
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 78
+         end: 80
+         value: "on"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 78
+         end: 80
+         PosValue: "IN"
+   DependencyType: "prep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 65
+      end: 68
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 65
+         end: 68
+         value: "let"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 65
+         end: 68
+         PosValue: "VV"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 69
+      end: 72
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 69
+         end: 72
+         value: "Lap"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 69
+         end: 72
+         PosValue: "NP"
+   DependencyType: "dep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 61
+      end: 64
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 61
+         end: 64
+         value: "and"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 61
+         end: 64
+         PosValue: "CC"
+   DependencyType: "cc"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 54
+      end: 56
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 54
+         end: 56
+         value: "to"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 54
+         end: 56
+         PosValue: "TO"
+   DependencyType: "prep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 33
+      end: 35
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 33
+         end: 35
+         value: "an"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 33
+         end: 35
+         PosValue: "DT"
+   DependencyType: "det"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 28
+      end: 32
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         value: "pass"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         PosValue: "VV"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   DependencyType: "dep"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         value: "document"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 45
+         end: 53
+         PosValue: "NN"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 36
+      end: 44
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 36
+         end: 44
+         value: "arbitary"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 36
+         end: 44
+         PosValue: "JJ"
+   DependencyType: "amod"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Dependency
+   sofa: _InitialView
+   begin: 20
+   end: 84
+   Governor: Token
+      sofa: _InitialView
+      begin: 28
+      end: 32
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         value: "pass"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 28
+         end: 32
+         PosValue: "VV"
+   Dependent: Token
+      sofa: _InitialView
+      begin: 24
+      end: 27
+      parent: <null>
+      lemma: Lemma
+         sofa: _InitialView
+         begin: 24
+         end: 27
+         value: "can"
+      stem: <null>
+      pos: POS
+         sofa: _InitialView
+         begin: 24
+         end: 27
+         PosValue: "MD"
+   DependencyType: "aux"
+[You can pass an arbitary document to CAS and let LAP work on it.]
+Sentence
+   sofa: _InitialView
+   begin: 20
+   end: 84
+[You]
+Lemma
+   sofa: _InitialView
+   begin: 20
+   end: 23
+   value: "you"
+[You]
+Token
+   sofa: _InitialView
+   begin: 20
+   end: 23
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 20
+      end: 23
+      value: "you"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 20
+      end: 23
+      PosValue: "PP"
+[You]
+POS
+   sofa: _InitialView
+   begin: 20
+   end: 23
+   PosValue: "PP"
+[can]
+Lemma
+   sofa: _InitialView
+   begin: 24
+   end: 27
+   value: "can"
+[can]
+Token
+   sofa: _InitialView
+   begin: 24
+   end: 27
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 24
+      end: 27
+      value: "can"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 24
+      end: 27
+      PosValue: "MD"
+[can]
+POS
+   sofa: _InitialView
+   begin: 24
+   end: 27
+   PosValue: "MD"
+[pass]
+Lemma
+   sofa: _InitialView
+   begin: 28
+   end: 32
+   value: "pass"
+[pass]
+Token
+   sofa: _InitialView
+   begin: 28
+   end: 32
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 28
+      end: 32
+      value: "pass"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 28
+      end: 32
+      PosValue: "VV"
+[pass]
+POS
+   sofa: _InitialView
+   begin: 28
+   end: 32
+   PosValue: "VV"
+[an]
+Lemma
+   sofa: _InitialView
+   begin: 33
+   end: 35
+   value: "an"
+[an]
+Token
+   sofa: _InitialView
+   begin: 33
+   end: 35
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 33
+      end: 35
+      value: "an"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 33
+      end: 35
+      PosValue: "DT"
+[an]
+POS
+   sofa: _InitialView
+   begin: 33
+   end: 35
+   PosValue: "DT"
+[arbitary]
+Lemma
+   sofa: _InitialView
+   begin: 36
+   end: 44
+   value: "arbitary"
+[arbitary]
+Token
+   sofa: _InitialView
+   begin: 36
+   end: 44
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 36
+      end: 44
+      value: "arbitary"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 36
+      end: 44
+      PosValue: "JJ"
+[arbitary]
+POS
+   sofa: _InitialView
+   begin: 36
+   end: 44
+   PosValue: "JJ"
+[document]
+Lemma
+   sofa: _InitialView
+   begin: 45
+   end: 53
+   value: "document"
+[document]
+Token
+   sofa: _InitialView
+   begin: 45
+   end: 53
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      value: "document"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 45
+      end: 53
+      PosValue: "NN"
+[document]
+POS
+   sofa: _InitialView
+   begin: 45
+   end: 53
+   PosValue: "NN"
+[to]
+Lemma
+   sofa: _InitialView
+   begin: 54
+   end: 56
+   value: "to"
+[to]
+Token
+   sofa: _InitialView
+   begin: 54
+   end: 56
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 54
+      end: 56
+      value: "to"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 54
+      end: 56
+      PosValue: "TO"
+[to]
+POS
+   sofa: _InitialView
+   begin: 54
+   end: 56
+   PosValue: "TO"
+[CAS]
+Lemma
+   sofa: _InitialView
+   begin: 57
+   end: 60
+   value: "Cas"
+[CAS]
+Token
+   sofa: _InitialView
+   begin: 57
+   end: 60
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 57
+      end: 60
+      value: "Cas"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 57
+      end: 60
+      PosValue: "NN"
+[CAS]
+POS
+   sofa: _InitialView
+   begin: 57
+   end: 60
+   PosValue: "NN"
+[and]
+Lemma
+   sofa: _InitialView
+   begin: 61
+   end: 64
+   value: "and"
+[and]
+Token
+   sofa: _InitialView
+   begin: 61
+   end: 64
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 61
+      end: 64
+      value: "and"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 61
+      end: 64
+      PosValue: "CC"
+[and]
+POS
+   sofa: _InitialView
+   begin: 61
+   end: 64
+   PosValue: "CC"
+[let]
+Lemma
+   sofa: _InitialView
+   begin: 65
+   end: 68
+   value: "let"
+[let]
+Token
+   sofa: _InitialView
+   begin: 65
+   end: 68
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 65
+      end: 68
+      value: "let"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 65
+      end: 68
+      PosValue: "VV"
+[let]
+POS
+   sofa: _InitialView
+   begin: 65
+   end: 68
+   PosValue: "VV"
+[LAP]
+Lemma
+   sofa: _InitialView
+   begin: 69
+   end: 72
+   value: "Lap"
+[LAP]
+Token
+   sofa: _InitialView
+   begin: 69
+   end: 72
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 69
+      end: 72
+      value: "Lap"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 69
+      end: 72
+      PosValue: "NP"
+[LAP]
+POS
+   sofa: _InitialView
+   begin: 69
+   end: 72
+   PosValue: "NP"
+[work]
+Lemma
+   sofa: _InitialView
+   begin: 73
+   end: 77
+   value: "work"
+[work]
+Token
+   sofa: _InitialView
+   begin: 73
+   end: 77
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 73
+      end: 77
+      value: "work"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 73
+      end: 77
+      PosValue: "VV"
+[work]
+POS
+   sofa: _InitialView
+   begin: 73
+   end: 77
+   PosValue: "VV"
+[on]
+Lemma
+   sofa: _InitialView
+   begin: 78
+   end: 80
+   value: "on"
+[on]
+Token
+   sofa: _InitialView
+   begin: 78
+   end: 80
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 78
+      end: 80
+      value: "on"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 78
+      end: 80
+      PosValue: "IN"
+[on]
+POS
+   sofa: _InitialView
+   begin: 78
+   end: 80
+   PosValue: "IN"
+[it]
+Lemma
+   sofa: _InitialView
+   begin: 81
+   end: 83
+   value: "it"
+[it]
+Token
+   sofa: _InitialView
+   begin: 81
+   end: 83
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 81
+      end: 83
+      value: "it"
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 81
+      end: 83
+      PosValue: "PP"
+[it]
+POS
+   sofa: _InitialView
+   begin: 81
+   end: 83
+   PosValue: "PP"
+[.]
+Lemma
+   sofa: _InitialView
+   begin: 83
+   end: 84
+   value: "."
+[.]
+Token
+   sofa: _InitialView
+   begin: 83
+   end: 84
+   parent: <null>
+   lemma: Lemma
+      sofa: _InitialView
+      begin: 83
+      end: 84
+      value: "."
+   stem: <null>
+   pos: POS
+      sofa: _InitialView
+      begin: 83
+      end: 84
+      PosValue: "SENT"
+[.]
+POS
+   sofa: _InitialView
+   begin: 83
+   end: 84
+   PosValue: "SENT"
+-------- View _InitialView end ----------------------------------
+
+======== CAS 0 end ==================================
+
+

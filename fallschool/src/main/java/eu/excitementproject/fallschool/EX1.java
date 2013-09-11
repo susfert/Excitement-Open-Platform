@@ -19,6 +19,9 @@ import eu.excitementproject.eop.lap.PlatformCASProber;
 import eu.excitementproject.eop.lap.dkpro.MaltParserEN;
 import eu.excitementproject.eop.lap.dkpro.TreeTaggerEN;
 
+
+import java.util.HashSet;
+
 /**
  * This heavily commented code introduces the Linguistic Analysis Pipeline 
  * (LAP) of EXCITEMENT open platform. Check EX1 exercise sheet first, and proceed 
@@ -164,7 +167,6 @@ public class EX1 {
 		{
 			System.out.println("Unable to initiated MaltParser (with TreeTagger) LAP: " + e.getMessage()); 			
 		}
-		
 		// and let's annotate something. 
 		try {
 			// get one empty CAS.  
@@ -175,7 +177,9 @@ public class EX1 {
 			aJCas.setDocumentLanguage("EN"); // ISO 639-1 language code.  
 			String doc = "This is a document. You can pass an arbitary document to CAS and let LAP work on it."; 
 			aJCas.setDocumentText(doc); 
-			malt.addAnnotationOn(aJCas); 
+			malt.addAnnotationOn(aJCas);
+			CASAccessUtilities.dumpJCasToTextFile(aJCas, "test_dump13.txt"); 		
+
 		} catch (LAPException e)
 		{
 			System.out.println("Failed to process EOP RTE data format: " + e.getMessage()); 						
@@ -203,12 +207,15 @@ public class EX1 {
 		JCas aJCas = null; 
 		try {
 			malt = new MaltParserEN(); 
-			aJCas = malt.generateSingleTHPairCAS("We thought that there were many cats in this garden.", "But there was only one cat, among all the gardens in the city."); 
+			aJCas = malt.generateSingleTHPairCAS("We thought that there were many cats in this garden.", "But there was only one cat, among all the gardens in the city.");
+			CASAccessUtilities.dumpJCasToTextFile(aJCas, "test_dump14.txt");
+
 		} catch (LAPException e)
 		{
 			System.out.println("Unable to initiated MaltParser (with TreeTagger) LAP: " + e.getMessage()); 			
 		}
 		
+		HashSet<String> lemmabag = new HashSet<String>();
 		// aJCas has now T-H pair. 
 		// Here, let's iterate over the Tokens on Text side. 
 		try {
@@ -219,13 +226,16 @@ public class EX1 {
 				String s = tok.getCoveredText(); // .getCoveredText() let you check the text on the document that this annotation is attached to.  
 				int begin = tok.getBegin(); 
 				int end = tok.getEnd(); 
-				System.out.println(begin + "-" + end + " " + s); 		
+				System.out.println(begin + "-" + end + " " + s);
+				lemmabag.add(tok.getLemma().getValue());
 			}
 		} catch (CASException e)
 		{
 			System.out.println("Exception while accesing TextView of CAS: " + e.getMessage()); 						
 		}
 
+		System.out.println(lemmabag.toString());
+		
 		// And here, let's iterate over the dependency edges on the Hypothesis side. 
 		try { 
 			JCas hypothesisView = aJCas.getView("HypothesisView"); 

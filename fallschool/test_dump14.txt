@@ -1,0 +1,1727 @@
+======== CAS 0 begin ==================================
+
+-------- View _InitialView begin ----------------------------------
+
+DocumentAnnotation
+   sofa: _InitialView
+   begin: 0
+   end: 0
+   language: "x-unspecified"
+
+CAS-Text:
+null
+-------- View _InitialView end ----------------------------------
+
+-------- View TextView begin ----------------------------------
+
+DocumentAnnotation
+   sofa: TextView
+   begin: 0
+   end: 52
+   language: "en"
+
+CAS-Text:
+We thought that there were many cats in this garden.
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 0
+      end: 2
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 0
+         end: 2
+         value: "we"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 0
+         end: 2
+         PosValue: "PP"
+   Dependent: Token
+      sofa: TextView
+      begin: 3
+      end: 10
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 3
+         end: 10
+         value: "think"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 3
+         end: 10
+         PosValue: "VVD"
+   DependencyType: "dep"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 22
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 22
+         end: 26
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 22
+         end: 26
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: TextView
+      begin: 16
+      end: 21
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 16
+         end: 21
+         value: "there"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 16
+         end: 21
+         PosValue: "EX"
+   DependencyType: "expl"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 32
+      end: 36
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 32
+         end: 36
+         value: "cat"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 32
+         end: 36
+         PosValue: "NNS"
+   Dependent: Token
+      sofa: TextView
+      begin: 27
+      end: 31
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 27
+         end: 31
+         value: "many"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 27
+         end: 31
+         PosValue: "JJ"
+   DependencyType: "amod"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 22
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 22
+         end: 26
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 22
+         end: 26
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: TextView
+      begin: 37
+      end: 39
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 37
+         end: 39
+         value: "in"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 37
+         end: 39
+         PosValue: "IN"
+   DependencyType: "prep"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 37
+      end: 39
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 37
+         end: 39
+         value: "in"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 37
+         end: 39
+         PosValue: "IN"
+   Dependent: Token
+      sofa: TextView
+      begin: 45
+      end: 51
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 45
+         end: 51
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 45
+         end: 51
+         PosValue: "NN"
+   DependencyType: "pobj"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 0
+      end: 2
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 0
+         end: 2
+         value: "we"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 0
+         end: 2
+         PosValue: "PP"
+   Dependent: Token
+      sofa: TextView
+      begin: 51
+      end: 52
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 51
+         end: 52
+         value: "."
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 51
+         end: 52
+         PosValue: "SENT"
+   DependencyType: "dep"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 45
+      end: 51
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 45
+         end: 51
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 45
+         end: 51
+         PosValue: "NN"
+   Dependent: Token
+      sofa: TextView
+      begin: 40
+      end: 44
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 40
+         end: 44
+         value: "this"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 40
+         end: 44
+         PosValue: "DT"
+   DependencyType: "det"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 22
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 22
+         end: 26
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 22
+         end: 26
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: TextView
+      begin: 32
+      end: 36
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 32
+         end: 36
+         value: "cat"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 32
+         end: 36
+         PosValue: "NNS"
+   DependencyType: "nsubj"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 3
+      end: 10
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 3
+         end: 10
+         value: "think"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 3
+         end: 10
+         PosValue: "VVD"
+   Dependent: Token
+      sofa: TextView
+      begin: 22
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 22
+         end: 26
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 22
+         end: 26
+         PosValue: "VBD"
+   DependencyType: "ccomp"
+[We thought that there were many cats in this garden.]
+Dependency
+   sofa: TextView
+   begin: 0
+   end: 52
+   Governor: Token
+      sofa: TextView
+      begin: 22
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 22
+         end: 26
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 22
+         end: 26
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: TextView
+      begin: 11
+      end: 15
+      parent: <null>
+      lemma: Lemma
+         sofa: TextView
+         begin: 11
+         end: 15
+         value: "that"
+      stem: <null>
+      pos: POS
+         sofa: TextView
+         begin: 11
+         end: 15
+         PosValue: "IN/that"
+   DependencyType: "complm"
+[We thought that there were many cats in this garden.]
+Text
+   sofa: TextView
+   begin: 0
+   end: 52
+[We thought that there were many cats in this garden.]
+Sentence
+   sofa: TextView
+   begin: 0
+   end: 52
+[We]
+Lemma
+   sofa: TextView
+   begin: 0
+   end: 2
+   value: "we"
+[We]
+Token
+   sofa: TextView
+   begin: 0
+   end: 2
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 0
+      end: 2
+      value: "we"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 0
+      end: 2
+      PosValue: "PP"
+[We]
+POS
+   sofa: TextView
+   begin: 0
+   end: 2
+   PosValue: "PP"
+[thought]
+Lemma
+   sofa: TextView
+   begin: 3
+   end: 10
+   value: "think"
+[thought]
+Token
+   sofa: TextView
+   begin: 3
+   end: 10
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 3
+      end: 10
+      value: "think"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 3
+      end: 10
+      PosValue: "VVD"
+[thought]
+POS
+   sofa: TextView
+   begin: 3
+   end: 10
+   PosValue: "VVD"
+[that]
+Lemma
+   sofa: TextView
+   begin: 11
+   end: 15
+   value: "that"
+[that]
+Token
+   sofa: TextView
+   begin: 11
+   end: 15
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 11
+      end: 15
+      value: "that"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 11
+      end: 15
+      PosValue: "IN/that"
+[that]
+POS
+   sofa: TextView
+   begin: 11
+   end: 15
+   PosValue: "IN/that"
+[there]
+Lemma
+   sofa: TextView
+   begin: 16
+   end: 21
+   value: "there"
+[there]
+Token
+   sofa: TextView
+   begin: 16
+   end: 21
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 16
+      end: 21
+      value: "there"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 16
+      end: 21
+      PosValue: "EX"
+[there]
+POS
+   sofa: TextView
+   begin: 16
+   end: 21
+   PosValue: "EX"
+[were]
+Lemma
+   sofa: TextView
+   begin: 22
+   end: 26
+   value: "be"
+[were]
+Token
+   sofa: TextView
+   begin: 22
+   end: 26
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 22
+      end: 26
+      value: "be"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 22
+      end: 26
+      PosValue: "VBD"
+[were]
+POS
+   sofa: TextView
+   begin: 22
+   end: 26
+   PosValue: "VBD"
+[many]
+Lemma
+   sofa: TextView
+   begin: 27
+   end: 31
+   value: "many"
+[many]
+Token
+   sofa: TextView
+   begin: 27
+   end: 31
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 27
+      end: 31
+      value: "many"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 27
+      end: 31
+      PosValue: "JJ"
+[many]
+POS
+   sofa: TextView
+   begin: 27
+   end: 31
+   PosValue: "JJ"
+[cats]
+Lemma
+   sofa: TextView
+   begin: 32
+   end: 36
+   value: "cat"
+[cats]
+Token
+   sofa: TextView
+   begin: 32
+   end: 36
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 32
+      end: 36
+      value: "cat"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 32
+      end: 36
+      PosValue: "NNS"
+[cats]
+POS
+   sofa: TextView
+   begin: 32
+   end: 36
+   PosValue: "NNS"
+[in]
+Lemma
+   sofa: TextView
+   begin: 37
+   end: 39
+   value: "in"
+[in]
+Token
+   sofa: TextView
+   begin: 37
+   end: 39
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 37
+      end: 39
+      value: "in"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 37
+      end: 39
+      PosValue: "IN"
+[in]
+POS
+   sofa: TextView
+   begin: 37
+   end: 39
+   PosValue: "IN"
+[this]
+Lemma
+   sofa: TextView
+   begin: 40
+   end: 44
+   value: "this"
+[this]
+Token
+   sofa: TextView
+   begin: 40
+   end: 44
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 40
+      end: 44
+      value: "this"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 40
+      end: 44
+      PosValue: "DT"
+[this]
+POS
+   sofa: TextView
+   begin: 40
+   end: 44
+   PosValue: "DT"
+[garden]
+Lemma
+   sofa: TextView
+   begin: 45
+   end: 51
+   value: "garden"
+[garden]
+Token
+   sofa: TextView
+   begin: 45
+   end: 51
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 45
+      end: 51
+      value: "garden"
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 45
+      end: 51
+      PosValue: "NN"
+[garden]
+POS
+   sofa: TextView
+   begin: 45
+   end: 51
+   PosValue: "NN"
+[.]
+Lemma
+   sofa: TextView
+   begin: 51
+   end: 52
+   value: "."
+[.]
+Token
+   sofa: TextView
+   begin: 51
+   end: 52
+   parent: <null>
+   lemma: Lemma
+      sofa: TextView
+      begin: 51
+      end: 52
+      value: "."
+   stem: <null>
+   pos: POS
+      sofa: TextView
+      begin: 51
+      end: 52
+      PosValue: "SENT"
+[.]
+POS
+   sofa: TextView
+   begin: 51
+   end: 52
+   PosValue: "SENT"
+-------- View TextView end ----------------------------------
+
+-------- View HypothesisView begin ----------------------------------
+
+DocumentAnnotation
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   language: "en"
+
+CAS-Text:
+But there was only one cat, among all the gardens in the city.
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 0
+      end: 3
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 0
+         end: 3
+         value: "but"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 0
+         end: 3
+         PosValue: "CC"
+   DependencyType: "cc"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 19
+      end: 22
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 19
+         end: 22
+         value: "one"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 19
+         end: 22
+         PosValue: "CD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 14
+      end: 18
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 14
+         end: 18
+         value: "only"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 14
+         end: 18
+         PosValue: "RB"
+   DependencyType: "quantmod"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 23
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 23
+         end: 26
+         value: "cat"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 23
+         end: 26
+         PosValue: "NN"
+   DependencyType: "nsubj"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 28
+      end: 33
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 28
+         end: 33
+         value: "among"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 28
+         end: 33
+         PosValue: "IN"
+   DependencyType: "prep"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         PosValue: "NNS"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 38
+      end: 41
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 38
+         end: 41
+         value: "the"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 38
+         end: 41
+         PosValue: "DT"
+   DependencyType: "det"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         PosValue: "NNS"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 50
+      end: 52
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 50
+         end: 52
+         value: "in"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 50
+         end: 52
+         PosValue: "IN"
+   DependencyType: "prep"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 50
+      end: 52
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 50
+         end: 52
+         value: "in"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 50
+         end: 52
+         PosValue: "IN"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 57
+      end: 61
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 57
+         end: 61
+         value: "city"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 57
+         end: 61
+         PosValue: "NN"
+   DependencyType: "pobj"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 61
+      end: 62
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 61
+         end: 62
+         value: "."
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 61
+         end: 62
+         PosValue: "SENT"
+   DependencyType: "punct"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 57
+      end: 61
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 57
+         end: 61
+         value: "city"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 57
+         end: 61
+         PosValue: "NN"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 53
+      end: 56
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 53
+         end: 56
+         value: "the"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 53
+         end: 56
+         PosValue: "DT"
+   DependencyType: "det"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 28
+      end: 33
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 28
+         end: 33
+         value: "among"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 28
+         end: 33
+         PosValue: "IN"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         PosValue: "NNS"
+   DependencyType: "pobj"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         value: "garden"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 42
+         end: 49
+         PosValue: "NNS"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 34
+      end: 37
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 34
+         end: 37
+         value: "all"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 34
+         end: 37
+         PosValue: "PDT"
+   DependencyType: "predet"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 26
+      end: 27
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 26
+         end: 27
+         value: ","
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 26
+         end: 27
+         PosValue: ","
+   DependencyType: "punct"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 23
+      end: 26
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 23
+         end: 26
+         value: "cat"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 23
+         end: 26
+         PosValue: "NN"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 19
+      end: 22
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 19
+         end: 22
+         value: "one"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 19
+         end: 22
+         PosValue: "CD"
+   DependencyType: "num"
+[But there was only one cat, among all the gardens in the city.]
+Dependency
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+   Governor: Token
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         value: "be"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 10
+         end: 13
+         PosValue: "VBD"
+   Dependent: Token
+      sofa: HypothesisView
+      begin: 4
+      end: 9
+      parent: <null>
+      lemma: Lemma
+         sofa: HypothesisView
+         begin: 4
+         end: 9
+         value: "there"
+      stem: <null>
+      pos: POS
+         sofa: HypothesisView
+         begin: 4
+         end: 9
+         PosValue: "EX"
+   DependencyType: "expl"
+[But there was only one cat, among all the gardens in the city.]
+Hypothesis
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+[But there was only one cat, among all the gardens in the city.]
+Sentence
+   sofa: HypothesisView
+   begin: 0
+   end: 62
+[But]
+Lemma
+   sofa: HypothesisView
+   begin: 0
+   end: 3
+   value: "but"
+[But]
+Token
+   sofa: HypothesisView
+   begin: 0
+   end: 3
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 0
+      end: 3
+      value: "but"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 0
+      end: 3
+      PosValue: "CC"
+[But]
+POS
+   sofa: HypothesisView
+   begin: 0
+   end: 3
+   PosValue: "CC"
+[there]
+Lemma
+   sofa: HypothesisView
+   begin: 4
+   end: 9
+   value: "there"
+[there]
+Token
+   sofa: HypothesisView
+   begin: 4
+   end: 9
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 4
+      end: 9
+      value: "there"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 4
+      end: 9
+      PosValue: "EX"
+[there]
+POS
+   sofa: HypothesisView
+   begin: 4
+   end: 9
+   PosValue: "EX"
+[was]
+Lemma
+   sofa: HypothesisView
+   begin: 10
+   end: 13
+   value: "be"
+[was]
+Token
+   sofa: HypothesisView
+   begin: 10
+   end: 13
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      value: "be"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 10
+      end: 13
+      PosValue: "VBD"
+[was]
+POS
+   sofa: HypothesisView
+   begin: 10
+   end: 13
+   PosValue: "VBD"
+[only]
+Lemma
+   sofa: HypothesisView
+   begin: 14
+   end: 18
+   value: "only"
+[only]
+Token
+   sofa: HypothesisView
+   begin: 14
+   end: 18
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 14
+      end: 18
+      value: "only"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 14
+      end: 18
+      PosValue: "RB"
+[only]
+POS
+   sofa: HypothesisView
+   begin: 14
+   end: 18
+   PosValue: "RB"
+[one]
+Lemma
+   sofa: HypothesisView
+   begin: 19
+   end: 22
+   value: "one"
+[one]
+Token
+   sofa: HypothesisView
+   begin: 19
+   end: 22
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 19
+      end: 22
+      value: "one"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 19
+      end: 22
+      PosValue: "CD"
+[one]
+POS
+   sofa: HypothesisView
+   begin: 19
+   end: 22
+   PosValue: "CD"
+[cat]
+Lemma
+   sofa: HypothesisView
+   begin: 23
+   end: 26
+   value: "cat"
+[cat]
+Token
+   sofa: HypothesisView
+   begin: 23
+   end: 26
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 23
+      end: 26
+      value: "cat"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 23
+      end: 26
+      PosValue: "NN"
+[cat]
+POS
+   sofa: HypothesisView
+   begin: 23
+   end: 26
+   PosValue: "NN"
+[,]
+Lemma
+   sofa: HypothesisView
+   begin: 26
+   end: 27
+   value: ","
+[,]
+Token
+   sofa: HypothesisView
+   begin: 26
+   end: 27
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 26
+      end: 27
+      value: ","
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 26
+      end: 27
+      PosValue: ","
+[,]
+POS
+   sofa: HypothesisView
+   begin: 26
+   end: 27
+   PosValue: ","
+[among]
+Lemma
+   sofa: HypothesisView
+   begin: 28
+   end: 33
+   value: "among"
+[among]
+Token
+   sofa: HypothesisView
+   begin: 28
+   end: 33
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 28
+      end: 33
+      value: "among"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 28
+      end: 33
+      PosValue: "IN"
+[among]
+POS
+   sofa: HypothesisView
+   begin: 28
+   end: 33
+   PosValue: "IN"
+[all]
+Lemma
+   sofa: HypothesisView
+   begin: 34
+   end: 37
+   value: "all"
+[all]
+Token
+   sofa: HypothesisView
+   begin: 34
+   end: 37
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 34
+      end: 37
+      value: "all"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 34
+      end: 37
+      PosValue: "PDT"
+[all]
+POS
+   sofa: HypothesisView
+   begin: 34
+   end: 37
+   PosValue: "PDT"
+[the]
+Lemma
+   sofa: HypothesisView
+   begin: 38
+   end: 41
+   value: "the"
+[the]
+Token
+   sofa: HypothesisView
+   begin: 38
+   end: 41
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 38
+      end: 41
+      value: "the"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 38
+      end: 41
+      PosValue: "DT"
+[the]
+POS
+   sofa: HypothesisView
+   begin: 38
+   end: 41
+   PosValue: "DT"
+[gardens]
+Lemma
+   sofa: HypothesisView
+   begin: 42
+   end: 49
+   value: "garden"
+[gardens]
+Token
+   sofa: HypothesisView
+   begin: 42
+   end: 49
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      value: "garden"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 42
+      end: 49
+      PosValue: "NNS"
+[gardens]
+POS
+   sofa: HypothesisView
+   begin: 42
+   end: 49
+   PosValue: "NNS"
+[in]
+Lemma
+   sofa: HypothesisView
+   begin: 50
+   end: 52
+   value: "in"
+[in]
+Token
+   sofa: HypothesisView
+   begin: 50
+   end: 52
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 50
+      end: 52
+      value: "in"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 50
+      end: 52
+      PosValue: "IN"
+[in]
+POS
+   sofa: HypothesisView
+   begin: 50
+   end: 52
+   PosValue: "IN"
+[the]
+Lemma
+   sofa: HypothesisView
+   begin: 53
+   end: 56
+   value: "the"
+[the]
+Token
+   sofa: HypothesisView
+   begin: 53
+   end: 56
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 53
+      end: 56
+      value: "the"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 53
+      end: 56
+      PosValue: "DT"
+[the]
+POS
+   sofa: HypothesisView
+   begin: 53
+   end: 56
+   PosValue: "DT"
+[city]
+Lemma
+   sofa: HypothesisView
+   begin: 57
+   end: 61
+   value: "city"
+[city]
+Token
+   sofa: HypothesisView
+   begin: 57
+   end: 61
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 57
+      end: 61
+      value: "city"
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 57
+      end: 61
+      PosValue: "NN"
+[city]
+POS
+   sofa: HypothesisView
+   begin: 57
+   end: 61
+   PosValue: "NN"
+[.]
+Lemma
+   sofa: HypothesisView
+   begin: 61
+   end: 62
+   value: "."
+[.]
+Token
+   sofa: HypothesisView
+   begin: 61
+   end: 62
+   parent: <null>
+   lemma: Lemma
+      sofa: HypothesisView
+      begin: 61
+      end: 62
+      value: "."
+   stem: <null>
+   pos: POS
+      sofa: HypothesisView
+      begin: 61
+      end: 62
+      PosValue: "SENT"
+[.]
+POS
+   sofa: HypothesisView
+   begin: 61
+   end: 62
+   PosValue: "SENT"
+-------- View HypothesisView end ----------------------------------
+
+======== CAS 0 end ==================================
+
+
